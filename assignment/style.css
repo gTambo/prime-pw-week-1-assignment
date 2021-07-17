@@ -1,28 +1,36 @@
 /* Give your page a fun background color */
 body {
-  font-family: Verdana;
-  background-color: #808080;
+  margin: 0;
+  color: #c0f5c0;
+  background-color: #505040;
 }
 /* Make the header and footer a different color from the background */
 .header-footer {
-  font-family: monospace;
-  background-color: #ff00ff;
-  color: #ffffff;
+  font-family: Verdana;
+  background-color: #b0f0f0;
+  color: #505040;
+  padding: 20px;
+  padding-left: 10px;
 }
 /* Align the h1 containing your name in the center of the header*/
 header {
   text-align: center;
+  text-decoration: overline;
 }
 /* Make your p tag a different color and italic */
 footer{
   color: teal;
-  font-size: 10;
+  font-size: 12;
   font-style: italic;
-  font-family: Trebuchet, sans-serif;
+  font-family: monospace;
 }
 /* Put a border around your image */
 img {
-  width: 20%;
-  border: 2px solid #000000;
+  margin-left: 5px;
+  width: 18%;
+  border: 15px solid #303020;
 }
 /* Change the font-family of your list */
+#facts{
+  font-family: tahoma;
+}
