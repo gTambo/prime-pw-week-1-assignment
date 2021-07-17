@@ -8,13 +8,14 @@ body {
 .header-footer {
   font-family: Verdana;
   background-color: #b0f0f0;
-  color: #505040;
+  color: #b0f0f0;
   padding: 20px;
   padding-left: 10px;
 }
 /* Align the h1 containing your name in the center of the header*/
 header {
   text-align: center;
+  text-shadow: -1px -1px 0 #505040, -1px 1px 0 #505040, 1px -1px 0 #505040, 1px 1px 0 #505040;
   text-decoration: overline;
 }
 /* Make your p tag a different color and italic */
